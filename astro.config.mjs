@@ -33,8 +33,8 @@ import { remarkMermaid } from "./src/plugins/remark-mermaid.js";
 
 // https://astro.build/config
 export default defineConfig({
-	site: siteConfig.siteURL,
-	base: "/QMStarsBlog",
+	site: siteConfig.dditeURL,
+	base: "/",
 	trailingSlash: "always",
 
 	output: "static",
